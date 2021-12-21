@@ -1,7 +1,7 @@
 import React from 'react';
 import {View, Text, StyleSheet} from 'react-native';
 import MultiSlider from '@ptomasroos/react-native-multi-slider';
-import {COLORS, SIZES, FONTS} from '.';
+import {COLORS, SIZES, FONTS} from '../constants';
 
 const styles = StyleSheet.create({
   shadow: {

@@ -156,6 +156,7 @@ export const FilterModal = ({isVisible, onClose}) => {
                 iconStyle={{
                   tintColor: item.id === ratings ? COLORS.white : COLORS.gray,
                 }}
+                iconPosition="RIGHT"
                 onPress={() => setRatings(item.id)}
               />
             );
@@ -208,13 +209,11 @@ export const FilterModal = ({isVisible, onClose}) => {
 
         <Animated.View
           style={{
-            // flex: 1,
             position: 'absolute',
-            alignItems: 'center',
             left: 0,
             top: modalY,
+            bottom: 0,
             width: '100%',
-            height: SIZES.height - 100,
             padding: SIZES.padding,
             borderTopRightRadius: SIZES.padding,
             borderTopLeftRadius: SIZES.padding,
@@ -263,7 +262,7 @@ export const FilterModal = ({isVisible, onClose}) => {
               bottom: 0,
               left: 0,
               right: 0,
-              height: 110,
+              height: 100,
               width: SIZES.width,
               paddingHorizontal: SIZES.padding,
               paddingVertical: SIZES.radius,
