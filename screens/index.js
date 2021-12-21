@@ -16,4 +16,26 @@ import Favorite from './Favorite/Favorite';
 // Notification
 import Notification from './Notification/Notification';
 
-export {MainLayout, Home, Search, CartTab, Favorite, Notification};
+import OnBoarding from './OnBoarding/OnBoarding';
+
+// AUthentication
+import SignIn from './Authentication/SignIn';
+import SignUp from './Authentication/SignUp';
+import Otp from './Authentication/Otp';
+import ForgotPassword from './Authentication/ForgotPassword';
+import AuthLayout from './Authentication/AuthLayout';
+
+export {
+  MainLayout,
+  Home,
+  Search,
+  CartTab,
+  Favorite,
+  Notification,
+  OnBoarding,
+  SignIn,
+  SignUp,
+  Otp,
+  ForgotPassword,
+  AuthLayout,
+};
